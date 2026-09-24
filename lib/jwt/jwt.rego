@@ -2,7 +2,7 @@
 # description: Helper library for JWT verification and decoding in Rego
 # entrypoint: true
 # authors:
-# - The Styra Community
+# - The OPA Community
 # related_resources:
 #   - description: JSON Web Token (JWT) specification
 #     ref: https://www.rfc-editor.org/rfc/rfc7519
