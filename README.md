@@ -259,8 +259,8 @@ This can be achieved using two different approaches.
 
 ### Regal
 
-The most flexible option is to use [Regal](https://docs.styra.com/regal), and the custom
-[forbidden-function-call](https://docs.styra.com/regal/rules/custom/forbidden-function-call) rule to ensure that none
+The most flexible option is to use [Regal](https://www.openpolicyagent.org/projects/regal), and the custom
+[forbidden-function-call](https://www.openpolicyagent.org/projects/regal/rules/custom/forbidden-function-call) rule to ensure that none
 of the built-in JWT functions are used directly (or at least, only a subset of them). An example Regal configuration to
 forbid the use of any built-in function for verification of JWTs might like this:
 
@@ -332,5 +332,5 @@ users verify JWTs and related claims in a more standardized manner.
 
 ## Community
 
-For questions, discussions and announcements related to Styra products, services and open source projects, please join
-the Styra community on [Slack](https://communityinviter.com/apps/styracommunity/signup)!
+For questions, discussions and announcements related to OPA, please join the OPA community on
+[Slack](https://slack.openpolicyagent.org)!
